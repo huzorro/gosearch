@@ -1,0 +1,117 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+.search .BTN:hover {
+    background-color: #35a266;
+}
+
+body, table, input, textarea, select, button {
+    font-family: 微软雅黑, Verdana, sans-serif, 宋体;
+}
+body {
+    text-align: center;
+    font-size: 10pt;
+}
+body {
+    background: #fff;
+    text-align: center;
+    font-size: 10pt;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.search {
+    float: ;
+    margin: 8px 0 0 0;
+    overflow: hidden;
+}
+
+.search .BTN {
+    float: left;
+    font-size: 10.5pt;
+    color: #999;
+    background: #40AA53;
+    border: 0;
+    color: #fff;
+    height: 32px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.search .TXT {
+    float: left;
+    font-size: 10.5pt;
+    width: 220px;
+    height: 30px;
+    border: 1px solid #40AA53;
+    padding: 0 10px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+button {
+    align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+}
+
+ul#results {
+    margin: 20px 0 0 0;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+ul#results li .url {
+    margin: 2px 0 0 0;
+    color: #40AA53;
+    font-size: 9pt;
+    font-family: arial,sans-serif;
+}
+
+ul#results li h3 a {
+    font-size: 14pt;
+    text-decoration: none;
+    font-weight: normal;
+    color: #00C;
+    vertical-align: middle;
+}
+
+ul#results li h3 a:hover {
+    color: #C00;
+}
+ul#results li .outline {
+    margin: 3px 0 0 0;
+    line-height: 20px;
+    font-size: 14px;
+    color: #555;
+}
+ul#results li .highlight {
+    color: #dd4b39;
+}
+
+ul#results li {
+    margin: 0 0 20px 0;
+    overflow: hidden;
+}
+#SearchResults {
+    background: #fff;
+    border: none;
+    padding: 10px;
+    float: left;
+    text-align: left;
+}
+
+#SearchResults ul#results {
+    margin: 20px 0 0 0;
+}
