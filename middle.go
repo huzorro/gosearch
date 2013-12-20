@@ -1,4 +1,4 @@
-package main
+package gosearch
 
 import (
 	"github.com/codegangsta/martini"
