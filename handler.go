@@ -1,4 +1,4 @@
-package gosearch
+package main
 
 import (
 	"net/http"
